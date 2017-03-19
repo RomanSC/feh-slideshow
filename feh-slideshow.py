@@ -50,10 +50,14 @@ def readdir(slide_dir):
     # Read only files...
     # onlyfiles = [f for f in os.listdir(slide_dir) if os.isfile(os.join(slide_dir, f))]
 
+    # Make sure slide_dir ends in "/" preventing an error when full path is created
+    if slide_dir[-1:] != "/":
+        slide_dir = slide_dir + "/"
+
     files = os.listdir(slide_dir) # Read in files
 
     for f in range(len(files)):
-        files[f] = str(slide_dir) + files[f] # Make fullpath for feh
+        files[f] = str(slide_dir) + files[f] # Make full path for feh
 
     # Sort files by integer
     # https://stackoverflow.com/questions/4287209/sort-list-of-strings-by-integer-suffix-in-python

@@ -1,6 +1,6 @@
 # feh-slideshow
 
-<iframe src='//gifs.com/embed/feh-slideshow-python-66NPON' frameborder='0' scrolling='no' width='640px' height='360px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+[![Demo CountPages alpha](https://j.gifs.com/66NPON.gif)](https://www.youtube.com/watch?v=5mUzByPMI8g&feature=youtu.be)
 
 A slideshow script written in Python that changes the desktop background using the feh linux program.
 
